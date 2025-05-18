@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Home from './pages/Home';
 import BuyOptions from './pages/BuyOptions';
 import Legacy from './pages/Legacy';
@@ -23,7 +22,6 @@ function App() {
           <Route path="/news" element={<News />} />
           <Route path="/about" element={<About />} />
         </Routes>
-        {/* <Footer /> */}
       </div>
     </Router>
   );
