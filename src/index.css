@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "pricedown";
+  src: url("./pricedown.otf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "pricedown";
+}
+
+.scale-130 {
+  scale: 1.3;
+}
+
+.scale-140 {
+  scale: 1.4;
+}
+
+.scale-150 {
+  scale: 1.5;
+}
+
+.scale-180 {
+  scale: 1.8;
+}
+
+.-rotate-3 {
+  rotate: -3deg;
+}
+
+.-rotate-10 {
+  rotate: -10deg;
+}
+
+.-rotate-20 {
+  rotate: -20deg;
+}
+
+.w-15 {
+  width: 3.75rem;
+}
