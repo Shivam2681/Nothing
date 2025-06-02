@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-export default function Legacy() {
+export default function Audio() {
   const audioProducts = [
     {
       title: "Nothing Ear (2)",

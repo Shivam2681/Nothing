@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-export default function BuyOptions() {
+export default function Buy() {
   const phones = [
     {
       name: "Nothing Phone (3a)",
